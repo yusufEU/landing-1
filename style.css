@@ -1,0 +1,123 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 24px;
+	margin-bottom: 10px;
+}
+
+body {
+	background: #f9fafb;
+	color: #111827;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+
+}
+
+img {
+  border-radius: 16px;
+}
+
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	min-height: 50vh;
+	padding: 10px;
+	border-radius: 24px;
+}
+
+.hero h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.1;
+  max-width: 10ch;
+}
+
+.hero article {
+	width: 500px;
+}
+
+.hero article a {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.features {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 24px;
+}
+
+.cards {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 24px;
+}
+
+.form-disable {
+	display: none;
+}
+
+.form-active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.active-form {
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 24px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .features article {
+    width: calc(50% - 12px);
+  }
+}
