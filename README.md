@@ -2,6 +2,10 @@
 
 Responsive landing page built with HTML, CSS and JavaScript.
 
+## 📸 Preview
+
+![Landing 1 Screenshot](landing1.jpg)
+
 ## 🔗 Live Demo
 https://yusufeu.github.io/landing-1/
 
